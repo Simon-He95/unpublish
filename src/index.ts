@@ -21,8 +21,19 @@ export async function setup() {
   if (params)
     publishedVersion += params
   else publishedVersion += version + params
+  const command = `npm unpublish ${colorize({
+    bgColor: 'black',
+    text: publishedVersion,
+  })} ${params}\n`
+  log(
+    colorize({
+      text: command,
+      color: 'white',
+    }),
+    {},
+  )
 
-  jsShell(`npm unpublish ${publishedVersion} ${params}`)
+  jsShell(command)
 }
 
 setup()
