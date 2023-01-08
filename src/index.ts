@@ -33,7 +33,7 @@ export async function setup() {
     {},
   )
 
-  jsShell(command)
+  jsShell(`npm unpublish ${publishedVersion} ${params}`)
 }
 
 setup()
