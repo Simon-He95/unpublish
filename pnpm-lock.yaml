@@ -10,7 +10,7 @@ importers:
       bumpp: ^8.2.1
       eslint: ^8.18.0
       esno: ^0.16.3
-      lazy-js-utils: ^0.0.16
+      lazy-js-utils: ^0.0.18
       lint-staged: ^13.1.0
       picocolors: ^1.0.0
       prettier: ^2.8.1
@@ -22,7 +22,7 @@ importers:
       vitest: ^0.15.1
     dependencies:
       '@simon_he/colorize': 0.0.1
-      lazy-js-utils: 0.0.16_typescript@4.7.4
+      lazy-js-utils: 0.0.18_typescript@4.7.4
     devDependencies:
       '@antfu/eslint-config': 0.25.1_b5e7v2qnwxfo6hmiq56u52mz3e
       '@types/node': 18.0.0
@@ -2487,8 +2487,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /lazy-js-utils/0.0.16_typescript@4.7.4:
-    resolution: {integrity: sha512-WCdvJzStDiPBbdF8GJorOE7YX97LmEITUWdRmgztqamI7UyX1xO0NbQ6xk63JF/F6e4XizliFfy/fyd4iY4hxw==}
+  /lazy-js-utils/0.0.8:
+    resolution: {integrity: sha512-dvBBZxftx3NnhzTnW/8/aSh7mON/swuTNHBiut6mNBPw17KVdA3mkSlnKdZkYV43KO90olgGY9H7XsHpr/WkaA==}
     dependencies:
       '@vueuse/core': 8.9.4_vue@3.2.45
       htmlparser2: 8.0.1

@@ -1,11 +1,11 @@
 import process from 'process'
-import { getPkg, jsShell, log, spaceFormat } from 'lazy-js-utils'
+import { getPkg, isVersion, jsShell, log, spaceFormat } from 'lazy-js-utils'
 import colorize from '@simon_he/colorize'
 import { version as VERSION } from '../package.json'
 
 export async function setup() {
   const argv: string[] = process.argv.slice(2)
-  const params = spaceFormat(argv.join(' ')).trim()
+  let params = spaceFormat(argv.join(' ')).trim()
   if (params === '-v' || params === '--version') {
     log(
       colorize({
@@ -17,14 +17,30 @@ export async function setup() {
     return
   }
   const { name, version } = await getPkg()
-  let publishedVersion = `${name}@`
-  if (params)
+  let publishedVersion = ''
+  if (params === '-f' || params === '--force')
+    params = ` ${params}`
+
+  if (
+    !params
+    || isVersion(params)
+    || params === ' -f'
+    || params === ' --force'
+  ) {
+    publishedVersion += `${name}@`
+    if (params)
+      publishedVersion += params
+    else publishedVersion += version + params
+  }
+  else if (params) {
     publishedVersion += params
-  else publishedVersion += version + params
+    params = ''
+  }
+
   const command = `npm unpublish ${colorize({
     bgColor: 'black',
     text: publishedVersion,
-  })} ${params}\n`
+  })}\n`
   log(
     colorize({
       text: command,
@@ -33,7 +49,7 @@ export async function setup() {
     {},
   )
 
-  jsShell(`npm unpublish ${publishedVersion} ${params}`)
+  jsShell(`npm unpublish ${publishedVersion}`)
 }
 
 setup()
