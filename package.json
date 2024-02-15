@@ -2,7 +2,7 @@
   "name": "@simon_he/unpublish",
   "type": "module",
   "version": "0.0.4",
-  "packageManager": "pnpm@7.22.0",
+  "packageManager": "pnpm@7.33.7",
   "description": "",
   "author": "Simon He",
   "license": "MIT",
