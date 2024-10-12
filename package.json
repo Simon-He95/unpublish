@@ -1,7 +1,7 @@
 {
   "name": "@simon_he/unpublish",
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "packageManager": "pnpm@8.15.6",
   "description": "",
   "author": "Simon He",
@@ -52,11 +52,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "lazy-js-utils": "^0.0.29"
+    "@simon_he/colorize": "^0.0.1",
+    "lazy-js-utils": "^0.1.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.2",
-    "@simon_he/colorize": "^0.0.1",
     "@types/node": "^18.19.55",
     "bumpp": "^8.2.1",
     "eslint": "^8.57.1",
