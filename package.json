@@ -56,7 +56,7 @@
     "lazy-js-utils": "^0.1.27"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.34.2",
+    "@antfu/eslint-config": "^3.0.0",
     "@types/node": "^18.19.67",
     "bumpp": "^8.2.1",
     "eslint": "^8.57.1",
