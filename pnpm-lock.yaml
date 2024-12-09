@@ -12,15 +12,15 @@ importers:
         specifier: ^0.0.1
         version: 0.0.1
       lazy-js-utils:
-        specifier: ^0.1.2
-        version: 0.1.2
+        specifier: ^0.1.27
+        version: 0.1.27
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^0.34.2
         version: 0.34.2(eslint@8.57.1)(typescript@4.9.5)
       '@types/node':
-        specifier: ^18.19.55
-        version: 18.19.55
+        specifier: ^18.19.67
+        version: 18.19.67
       bumpp:
         specifier: ^8.2.1
         version: 8.2.1
@@ -34,8 +34,8 @@ importers:
         specifier: ^13.3.0
         version: 13.3.0
       picocolors:
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: ^1.1.1
+        version: 1.1.1
       prettier:
         specifier: ^2.8.8
         version: 2.8.8
@@ -448,8 +448,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@18.19.55':
-    resolution: {integrity: sha512-zzw5Vw52205Zr/nmErSEkN5FLqXPuKX/k5d1D7RKHATGqU7y6YfX9QxZraUzUrFGqH6XzOzG196BC35ltJC4Cw==}
+  '@types/node@18.19.67':
+    resolution: {integrity: sha512-wI8uHusga+0ZugNp0Ol/3BqQfEcCCNfojtO6Oou9iVNGPTL6QNSdnUdqq85fRgIorLhLMuPIKpsN98QE9Nh+KQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1459,8 +1459,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  lazy-js-utils@0.1.2:
-    resolution: {integrity: sha512-+6gxQJbZuZqaD1XN7DIX05sVOInELDtxy+M7bpV8qa5OUYK+422Irl47NeN3tAARNx+RHUl40jsV4Rv7nvD2Kw==}
+  lazy-js-utils@0.1.27:
+    resolution: {integrity: sha512-6NjFRl/VvxIQ3EdEJuE2DAWT3h4wCVSTFcOyEkme+VYxDlkfjDA3gB3TzoiLvWK1w/Ufzq0ZQN8Tj5Hpvq9VDQ==}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -1726,8 +1726,8 @@ packages:
   pathval@1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
 
-  picocolors@1.1.0:
-    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -2400,7 +2400,7 @@ snapshots:
   '@babel/code-frame@7.25.7':
     dependencies:
       '@babel/highlight': 7.25.7
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   '@babel/helper-validator-identifier@7.25.7': {}
 
@@ -2409,7 +2409,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   '@esbuild/android-arm64@0.17.19':
     optional: true
@@ -2630,7 +2630,7 @@ snapshots:
 
   '@simon_he/colorize@0.0.1':
     dependencies:
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   '@types/chai-subset@1.3.5':
     dependencies:
@@ -2646,7 +2646,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.11
 
-  '@types/node@18.19.55':
+  '@types/node@18.19.67':
     dependencies:
       undici-types: 5.26.5
 
@@ -3852,7 +3852,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  lazy-js-utils@0.1.2:
+  lazy-js-utils@0.1.27:
     dependencies:
       htmlparser2: 8.0.2
       qrcode: 1.5.4
@@ -4135,7 +4135,7 @@ snapshots:
 
   pathval@1.1.1: {}
 
-  picocolors@1.1.0: {}
+  picocolors@1.1.1: {}
 
   picomatch@2.3.1: {}
 
@@ -4170,7 +4170,7 @@ snapshots:
   postcss@8.4.47:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       source-map-js: 1.2.1
 
   prelude-ls@1.2.1: {}
@@ -4587,14 +4587,14 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@0.26.3(@types/node@18.19.55):
+  vite-node@0.26.3(@types/node@18.19.67):
     dependencies:
       debug: 4.3.7
       mlly: 1.7.2
       pathe: 0.2.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.5.5(@types/node@18.19.55)
+      vite: 4.5.5(@types/node@18.19.67)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4605,20 +4605,20 @@ snapshots:
       - supports-color
       - terser
 
-  vite@4.5.5(@types/node@18.19.55):
+  vite@4.5.5(@types/node@18.19.67):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.47
       rollup: 3.29.5
     optionalDependencies:
-      '@types/node': 18.19.55
+      '@types/node': 18.19.67
       fsevents: 2.3.3
 
   vitest@0.26.3:
     dependencies:
       '@types/chai': 4.3.20
       '@types/chai-subset': 1.3.5
-      '@types/node': 18.19.55
+      '@types/node': 18.19.67
       acorn: 8.12.1
       acorn-walk: 8.3.4
       chai: 4.5.0
@@ -4629,8 +4629,8 @@ snapshots:
       tinybench: 2.9.0
       tinypool: 0.3.1
       tinyspy: 1.1.1
-      vite: 4.5.5(@types/node@18.19.55)
-      vite-node: 0.26.3(@types/node@18.19.55)
+      vite: 4.5.5(@types/node@18.19.67)
+      vite-node: 0.26.3(@types/node@18.19.67)
     transitivePeerDependencies:
       - less
       - lightningcss

@@ -1,6 +1,8 @@
 import process from 'process'
-import { getPkg, isVersion, jsShell, log, spaceFormat } from 'lazy-js-utils'
+import { isVersion, log, spaceFormat } from 'lazy-js-utils'
+
 import colorize from '@simon_he/colorize'
+import { getPkg, jsShell } from 'lazy-js-utils/dist/node'
 import { version as VERSION } from '../package.json'
 
 export async function setup() {
