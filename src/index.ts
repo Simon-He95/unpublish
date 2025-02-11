@@ -51,7 +51,7 @@ export async function setup() {
     {},
   )
 
-  jsShell(`npm unpublish ${publishedVersion}`)
+  await jsShell(`npm unpublish ${publishedVersion}`, 'inherit')
 }
 
 setup()

@@ -12,15 +12,15 @@ importers:
         specifier: ^0.0.1
         version: 0.0.1
       lazy-js-utils:
-        specifier: ^0.1.27
-        version: 0.1.27
+        specifier: ^0.1.30
+        version: 0.1.30
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^0.34.2
         version: 0.34.2(eslint@8.57.1)(typescript@4.9.5)
       '@types/node':
-        specifier: ^18.19.67
-        version: 18.19.67
+        specifier: ^18.19.75
+        version: 18.19.75
       bumpp:
         specifier: ^8.2.1
         version: 8.2.1
@@ -448,8 +448,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@18.19.67':
-    resolution: {integrity: sha512-wI8uHusga+0ZugNp0Ol/3BqQfEcCCNfojtO6Oou9iVNGPTL6QNSdnUdqq85fRgIorLhLMuPIKpsN98QE9Nh+KQ==}
+  '@types/node@18.19.75':
+    resolution: {integrity: sha512-UIksWtThob6ZVSyxcOqCLOUNg/dyO1Qvx4McgeuhrEtHTLFTf7BBhEazaE4K806FGTPtzd/2sE90qn4fVr7cyw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1459,8 +1459,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  lazy-js-utils@0.1.27:
-    resolution: {integrity: sha512-6NjFRl/VvxIQ3EdEJuE2DAWT3h4wCVSTFcOyEkme+VYxDlkfjDA3gB3TzoiLvWK1w/Ufzq0ZQN8Tj5Hpvq9VDQ==}
+  lazy-js-utils@0.1.30:
+    resolution: {integrity: sha512-o0Zbb6Ukd6Iy9tLH9kyiGd9zbrJu4KIzdbwrFa54X4DEBQ+Z2cltP/RtgCaJR6Z6So2vhBvXQpihr9QMmicttw==}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -2646,7 +2646,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.11
 
-  '@types/node@18.19.67':
+  '@types/node@18.19.75':
     dependencies:
       undici-types: 5.26.5
 
@@ -3852,7 +3852,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  lazy-js-utils@0.1.27:
+  lazy-js-utils@0.1.30:
     dependencies:
       htmlparser2: 8.0.2
       qrcode: 1.5.4
@@ -4587,14 +4587,14 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@0.26.3(@types/node@18.19.67):
+  vite-node@0.26.3(@types/node@18.19.75):
     dependencies:
       debug: 4.3.7
       mlly: 1.7.2
       pathe: 0.2.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.5.5(@types/node@18.19.67)
+      vite: 4.5.5(@types/node@18.19.75)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4605,20 +4605,20 @@ snapshots:
       - supports-color
       - terser
 
-  vite@4.5.5(@types/node@18.19.67):
+  vite@4.5.5(@types/node@18.19.75):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.47
       rollup: 3.29.5
     optionalDependencies:
-      '@types/node': 18.19.67
+      '@types/node': 18.19.75
       fsevents: 2.3.3
 
   vitest@0.26.3:
     dependencies:
       '@types/chai': 4.3.20
       '@types/chai-subset': 1.3.5
-      '@types/node': 18.19.67
+      '@types/node': 18.19.75
       acorn: 8.12.1
       acorn-walk: 8.3.4
       chai: 4.5.0
@@ -4629,8 +4629,8 @@ snapshots:
       tinybench: 2.9.0
       tinypool: 0.3.1
       tinyspy: 1.1.1
-      vite: 4.5.5(@types/node@18.19.67)
-      vite-node: 0.26.3(@types/node@18.19.67)
+      vite: 4.5.5(@types/node@18.19.75)
+      vite-node: 0.26.3(@types/node@18.19.75)
     transitivePeerDependencies:
       - less
       - lightningcss

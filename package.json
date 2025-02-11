@@ -53,11 +53,11 @@
   },
   "dependencies": {
     "@simon_he/colorize": "^0.0.1",
-    "lazy-js-utils": "^0.1.27"
+    "lazy-js-utils": "^0.1.30"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.2",
-    "@types/node": "^18.19.67",
+    "@types/node": "^18.19.75",
     "bumpp": "^8.2.1",
     "eslint": "^8.57.1",
     "esno": "^0.16.3",
